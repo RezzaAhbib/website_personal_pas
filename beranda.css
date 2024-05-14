@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+body{
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-vector/pixel-art-vacation-background_52683-86708.jpg?w=1380&t=st=1698134510~exp=1698135110~hmac=1698d318cf0497e71dd1562cf910c5520ff6051a197ee4e5e3f1e6ea858c1cf6);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    background-color: #ffffff6b;
+    max-width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: hwb(0 36% 64%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: hwb(0 36% 64%);
+}
+
+button[type="submit2"] {
+    width: 100%;
+    padding: 10px;
+    background-color: hwb(0 36% 64%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: hwb(0 36% 64%);
+}
+button[type="submit3"] {
+    width: 100%;
+    padding: 10px;
+    background-color: hwb(0 36% 64%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+::placeholder{
+    color: rgb(121, 12, 143);
+}
